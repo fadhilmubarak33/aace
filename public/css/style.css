@@ -1,0 +1,580 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ============ Nvabar ============ */
+.navbar-brand img {
+    height: 75px;
+}
+
+.navbar-brand .logo {
+    height: 40px;
+}
+
+/* .navbar-toggler {
+    border-color: #000099;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} */
+
+.nav-link {
+    color: #0000EE!important;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.navbar-collapse .login {
+    padding: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+    background-color: #0000EE;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 8px;
+    /* margin-left: 20px; */
+    font-size: 18px;
+
+}
+
+.navbar-collapse .login:hover {
+    background-color: #000099;
+    box-shadow: 0px 0px 8px #888888
+}
+
+.line {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+
+
+/* ============ HEADER ============ */
+.header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* background-color: rgb(255, 228, 228); */
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-item {
+    margin-bottom: 120px;
+}
+
+.text-header {
+    text-align: left;
+}
+
+.text-header h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text-header p {
+    font-size: 20px;
+}
+
+.text-header h5 {
+    font-size: 14px;
+}
+
+.text-header button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    box-shadow: 0px 0px 5px #0000EE;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #000099;
+    margin-top: 50px;
+}
+
+.text-header button:hover {
+    box-shadow: 0px 0px 10px #0000EE;
+}
+
+
+
+/* ============ PERGURUAN TINGGI ============ */
+.perguruan-tinggi {
+    position: relative;
+    min-height: 575px;
+    background-color: #ffffff;
+    margin-top: -200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #888888;
+    padding: 50px;
+    z-index: 10;
+}
+
+
+.perguruan-tinggi .bacground {
+    background-color: #FEFBF6;
+    width: 400px;
+    height: 535px;
+    padding-top: 200px;
+    border-radius: 20px;
+}
+
+.perguruan-tinggi .bacground img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.perguruan-tinggi h2 {
+    color: #0000EE;
+}
+
+.perguruan-tinggi p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 1.8;
+}
+
+.daftar {
+    /* border: #0000EE 1px solid; */
+    padding: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+    border-radius: 20px;
+    background-color: #0000EE;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    /* padding-top: 8px; */
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+
+.daftar:hover {
+    background-color: #000099;
+    box-shadow: 0px 0px 8px #888888;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hori-line {
+    height: 1px;
+    background-color: #0000EE;
+    margin-bottom: 50px;
+}
+
+/* ============ MITRA ============ */
+.mitra {
+    margin-top: 20px;
+    min-height: 575px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #888888;
+    padding: 50px;
+
+}
+
+.mitra .bacground {
+    background-color: #F3F5FB;
+    width: 400px;
+    height: 535px;
+    padding-top: 200px;
+    border-radius: 20px;
+}
+
+.mitra .bacground img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mitra h2 {
+    color: #0000EE;
+}
+
+.mitra p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 1.8;
+}
+
+
+/* ============ COLAB ============ */
+.colab {
+    margin-top: 15px;
+    min-height: 575px;
+    /* background-color: rgb(192, 249, 196); */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.colab h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-carousel {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.fontIcon {
+    width: 50px;
+}
+
+
+.size-icon {
+    height: 25px;
+    width: 25px;
+}
+
+
+.card-header {
+    background-color: #F3F5FB;
+}
+
+.card-header h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0000EE;
+}
+
+.carousel .card-body {
+    position: relative;
+    height: 250px;
+}
+
+.carousel .card-body h4 {
+    font-size: 16px;
+}
+
+.kutip {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.kutip p {
+    font-size: 14px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.selengkapnya a {
+    border: #0000EE solid 1px;
+    background: transparent;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #0000EE;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.selengkapnya a:hover {
+    background: #0000EE;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0px 0px 8px #888888;
+}
+
+/* ============ INSPIRASI ============ */
+.inspirasi {
+    margin-top: 15px;
+    min-height: 575px;
+    /* background-color: rgb(192, 249, 196); */
+    /* border-radius: 20px; */
+
+}
+
+.inspirasi h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ============ MEDIA ============ */
+.media {
+    margin-top: 15px;
+    min-height: 575px;
+    /* background-color: rgb(141, 232, 235); */
+    /* border-radius: 20px; */
+
+}
+
+.media h2 {
+    font-size: 24px;
+}
+
+.inpirasi-kolaborasi {
+    background-color: #f7f7f7;
+    min-height: 575px;
+    width: 450px;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+
+.liputan-media {
+    /* background-color: #ff0000; */
+    min-height: 575px;
+    width: 600px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.liputan-media .kotak {
+    border: #0000EE solid 1px;
+    width: 280px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 0 0 0 20px;
+    padding: 15px;
+    position: relative;
+}
+
+.kotak .judul {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.kotak .judul a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.kotak .tanggal {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.inpirasi-kolaborasi .card {
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+    height: 370px;
+}
+
+.inpirasi-kolaborasi .card-body {
+    background-color: transparent;
+}
+
+.inpirasi-kolaborasi .carousel-indicators li {
+    background-color: #00000042;
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.inpirasi-kolaborasi .carousel-indicators .active {
+    background-color: #0000EE;
+}
+
+
+
+/* ============ FOOTER ============ */
+.footer {
+    padding: 50px;
+    margin-top: 50px;
+    min-height: 300px;
+    background-color: rgb(243, 243, 243);
+    color: #0000EE;
+}
+
+.footer p {
+    color: #5D6270;
+    font-size: 16px;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer h5 {
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+.footer .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0000EE;
+    padding: 5px;
+    position: relative;
+}
+
+.circle ion-icon {
+    color: #F3F5FB;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 900px) {
+    .header .responsive {
+        display: none;
+    }
+
+
+    .carousel-bacground {
+        height: 600px;
+        /* margin-top: 50px; */
+    }
+
+    .text-header h4 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .text-header {
+        text-align: left;
+        padding-top: 50px;
+    }
+
+    .text-header p {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .text-header h5 {
+        font-size: 14px;
+    }
+
+    .text-header button {
+        width: 200px;
+        height: 40px;
+        border: none;
+        box-shadow: 0px 0px 5px #0000EE;
+        border-radius: 20px;
+        font-size: 18px;
+        color: #000099;
+        margin-top: 50px;
+    }
+
+    .text-header button:hover {
+        box-shadow: 0px 0px 10px #0000EE;
+    }
+}
+
+.nama-profil{
+    color: #0000EE;
+    font-size: 20px;
+}
+
+.informasi-utama .syarat{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.informasi-utama .syarat td{
+    width: 33%;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.informasi-utama .syarat td h5{
+    margin: 0px;
+}
+
+
+.informasi-utama h4{
+    font-size: 22px;
+}
+
+.informasi-utama p{
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.nama{
+    font-weight: bold;
+}
+
+.instansi{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.bidang{
+    font-style: italic;
+    font-size: 12px;
+}
+.header{
+    background: #F8F9FC;
+    font-family: Poppins;
+}
+
+.penelitian .card-body{
+    min-height: 350px;
+}
+.penelitian .card{
+    margin-top: 10px;
+}
+.penelitian a.judul{
+    text-decoration: none;
+    color: #000;
+}
+.penelitian a.judul:hover{
+    color: #0000EE;
+}
+.sub-sector{
+    width: 300px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.document div{
+    width: 200px;
+    padding: 50px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.syarat {
+    list-style-type: none;
+}
+
+/* .penelitian { 
+    font-family: 'Poppins' sans-serif;
+} */
