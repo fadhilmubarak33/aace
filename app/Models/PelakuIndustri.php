@@ -12,11 +12,14 @@ class PelakuIndustri extends Model
     protected $table = 'pelakuindustri';
     protected $fillable =  [
         'pelakuindustri_id',
-        'namapelakuindustri',
-        'username',
+        'nama',
+        'email',
+        'telepon',
         'password',
-        'role_id'
-
+        // 'role_id',
+        'bidang_industri',
+        'nama_perusahaan',
+        'file_cv'
         ] ;
 
 }

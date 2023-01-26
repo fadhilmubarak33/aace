@@ -12,11 +12,12 @@ class Akademisi extends Model
     protected $table = 'akademisi';
     protected $fillable =  [
         'akademisi_id',
-        'namaakademisi',
-        'username',
+        'nama_peniliti',
+        'universitas',
+        'email',
         'password',
-        'role_id'
-
+        // 'role_id',
+        'email_verified_at'
         ] ;
 
 }
