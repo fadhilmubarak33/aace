@@ -21,4 +21,7 @@ class Kolaborasi extends Model
         'disetujui'
         ] ;
 
+    public function penelitian(){
+        return $this->belongsTo("App\Models\Penelitian", "penelitian_id");
+    }
 }

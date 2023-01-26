@@ -21,4 +21,7 @@ class Penelitian extends Model
         'link_artikel'
         ] ;
 
+    public function akademisi(){
+        return $this->belongsTo("App\Models\Akademisi", "akademisi_id");
+    }
 }

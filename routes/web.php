@@ -3,6 +3,7 @@
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KolaborasiController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PenelitianController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('index');
+});
 Route::get('/kolaborasi', function () {
     return view('kolaborasi');
 });
@@ -31,24 +32,28 @@ Route::get('/register', function () {
 Route::get('/form-publikasi', function () {
     return view('publikasi_form');
 });
-Route::get('/penelitian-animasi', function () {
-    return view('penelitian_animasi');
-});
-Route::get('/penelitian-aplikasigame', function () {
-    return view('penelitian_aplikasigame');
-});
-Route::get('/penelitian-fashion', function () {
-    return view('penelitian_fashion');
-});
-Route::get('/penelitian-kriya', function () {
-    return view('penelitian_kriya');
-});
-Route::get('/penelitian-kuliner', function () {
-    return view('penelitian_kuliner');
-});
+// Route::get('/penelitian-animasi', function () {
+//     return view('penelitian_animasi');
+// });
+// Route::get('/penelitian-aplikasigame', function () {
+//     return view('penelitian_aplikasigame');
+// });
+// Route::get('/penelitian-fashion', function () {
+//     return view('penelitian_fashion');
+// });
+// Route::get('/penelitian-kriya', function () {
+//     return view('penelitian_kriya');
+// });
+// Route::get('/penelitian-kuliner', function () {
+//     return view('penelitian_kuliner');
+// });
+
 Route::get('/detail-penelitian', function () {
     return view('penelitian_detail');
 });
+
+Route::get('/penelitian/{jenis}', [PenelitianController::class, 'index'])->name('penelitian.index');
+Route::get('/detail-penelitian/{slug}', [PenelitianController::class, 'detail'])->name('penelitian.detail');
 
 
 // Route::get('/kolaborasi', [KolaborasiController::class, 'index'])->name('kolaborasi.index');
