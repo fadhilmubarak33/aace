@@ -23,7 +23,7 @@
             <a class="navbar-brand" href="#">
                 <div class="row">
                     <div class="col">
-                        <img src="Assets/siskakol.png" id="logo" class="d-inline-block align-top" alt="">
+                        <img src="Assets/diskopindag.jpeg" id="logo" class="d-inline-block align-top" alt="">
                     </div>
                     <div class="col">
                         <div class="line"></div>
@@ -44,129 +44,97 @@
                         <a class="nav-link" href="#">Home</span></a>
                     </li>
                     <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="/penelitian.html" role="button" data-toggle="dropdown" aria-expanded="false">
                           Penelitian
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="penelitian_aplikasigame.html" target="_blank">Sektor Aplikasi & Game</a>
-                            <a class="dropdown-item" href="penelitian_kriya.html" target="_blank">Sektor Kriya</a>
-                            <a class="dropdown-item" href="penelitian_fashion.html"  target="_blank">Sektor Fashion</a>
-                            <a class="dropdown-item" href="penelitian_kuliner.html" target="_blank">Sektor Kuliner</a>
-                            <a class="dropdown-item" href="penelitian_animasi.html" target="_blank">Sektor Animasi</a>
+                          <a class="dropdown-item" href="/penelitian_aplikasigame.html" target="_blank">Sektor Aplikasi & Game</a>
+                          <a class="dropdown-item" href="#">Sektor Kriya</a>
+                          <a class="dropdown-item" href="#">Sektor Fashion</a>
+                          <a class="dropdown-item" href="#">Sektor Kuliner</a>
+                          <a class="dropdown-item" href="#">Sektor Animasi</a>
+                         
                         </div>
                       </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="publikasi_form.html" target="_blank">Publikasi</a>
+                        <a class="nav-link" href="/publikasi.html">Publikasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="kolaborasi.html" target="_blank">Kolaborasi</a>
+                        <a class="nav-link" href="kolaborasi.html">Kolaborasi</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Permasalahan</a>
                     </li>
                 </ul>
 
-                <a class="login" href="login.html" target="_blank">Masuk</a>
+                <a class="login" href="" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
             </div>
         </div>
     </nav>
 
-    <!-- Informasi Utama -->
-    <div class="informasi-utama container" style="margin-top: 150px" >
+
+    <div class="container" style="margin-top: 200px;">
         <div class="row">
-            <div class="col-md-12">
+            <div class="offset-md-3 col-md-6">
+
                 <div class="card">
                     <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-8 ">
-                            {{ $penelitian }}
+                        <center style="color: #000"> <h3>Form<br />
+                            Publikasi Penelitian</h3> </center>
 
-                                <h4>
-                                    Pengaruh Literasi Keuangan, Pengetahuan Keuangan Dan Sikap Keuangan Terhadap Perilaku Manajemen Keuangan Pada Pelaku Usaha UMKM Fashion Di Kabupaten Malang</h4>
-                                <small>
-                                    Dipublikasi Pada -
-                                </small>
+                        <form>
+                            <div class="form-group">
+                                <input type="name" class="form-control" id="name"
+                                    aria-describedby="name" placeholder="Nama Lengkap">
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12"><hr /></div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-8">
-                                <b>Oleh</b><br />
-                                <b class="nama-profil">Kurniawan Yuniarto</b><br />
-                                <small>Perguruan Tinggi | Univertas Mataram</small>
-
-                                <!-- <table class="syarat">
-                                    <tr>
-                                        <td>
-                                            <h5>Bidang</h5>
-                                            <small>Kemandirian</small>
-                                        </td>
-                                        <td>
-                                            <h5>Syarat Kesiapan Minimum</h5>
-                                            <small>8 - Sistem Lengkap</small>
-                                        </td>
-                                        <td>
-                                            <h5>Batas Akhir Pengajuan</h5>
-                                            <small>12 Desember 2022</small>
-                                        </td>
-                                    </tr>
-                                </table> -->
+                            <div class="form-group">
+                                <input type="instansi" class="form-control" id="instansi"
+                                    aria-describedby="instansi" placeholder="Instansi">
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <input type="judul" class="form-control" id="judul"
+                                    aria-describedby="judul" placeholder="Judul Penelitian">
+                            </div>
+                            <div class="form-group">
+                                <input type="tanggal" class="form-control" id="tanggal"
+                                    aria-describedby="tanggal" placeholder="Tanggal Terbit">
+                            </div>
+                            <div class="form-group">
+                                <select type="kategori" class="form-control" id="kategori"
+                                    aria-describedby="kategori">
+                                    <option>Kategori</option>
 
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="sub-sector">
-                                    <b>Sub Sektor</b><br />
-                                    <small>Fashion</small>
+                                    <option>Sektor A</option>
+                                    <option>Sektor B</option>
+                                    <option>Sektor C</option>
+                                    <option>Sektor D</option>
+                                </select>
+                            </div>
+                            <input type="file" name="file" id="file" style="display:none" />
+                            <div class="form-group row">
+                                <div class="col-6">
+                                    <label>Upload</label>
+                                    <div class="upload" style="border:1px solid #000;border-radius:10px; padding: 20px;">
+                                        <center><img src="Assets/upload.png" style="cursor:pointer" onclick="$('#file').trigger('click');" /></center>
+                                    </div>
+                                    <small id="filename"></small>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12">
-
-                                <h4>Latar Belakang</h4>
-                                <p>
-Pada sebuah informasi dari kementerian dalam bidang data serta biro perencanaan sebuah kementerian negara yang bergerak di bidang koperasi serta usaha mikro kecil menengah yang berada di Indonesia, usaha mikro kecil menengah sangat memberikan masukan serta kontribusi yang sangat baik bagi masyarakat dengan terciptanya investasi nasional serta pada peningkatan bruto PDB nasional, sebuah kontribusi usaha mikro kecil menengah dalam tenaga kerja. Mien & Thao (2015) “Banyak hal yang bisa menjadi sebuah masalah baru serta menjadi sebuah tantangan yang di hadapi usaha mikro kecil menengah di Indonesia, salah satunya dalam perilaku manajemen finansial pada pelaku usaha mikro kecil menengah. Perilaku manajemen keuangan dirasakan sebagai di antara konsep kunci dalam disiplin ilmu finansial”.
-                                </p>
-
-
-                                <h4>Dokumen Pendukung</h4>
-                                <a href="#" class="document">
-                                    <div>
-                                        <img src="/Assets/book.png" />
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="row" style="margin-top:20px">
-                            <div class="col-6">
-                                <h5>Tag</h5>
-                                <div class="badge badge-secondary">UMKM</div>
-                                <div class="badge badge-secondary">Penelitian</div>
-                                <div class="badge badge-secondary">Fashion</div>
-                            </div>
-
-                            <div class="col-6">
-                                <br />
-                                <a href="#" class="btn btn-primary float-right">Download</a>
-                            </div>
-                        </div>
-
+                            <center>
+                                <input type="submit" class="btn btn-primary" value="Kirim">
+                            </center>
+                        </form>
+                        
                     </div>
                 </div>
+                <br>
+                <center><p>Belum punya akun ? <a href="" style="color: #0000EE;">Daftar disini</a> </p></center>
+               
             </div>
         </div>
     </div>
 
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row justify-content-between">
@@ -245,9 +213,11 @@ Lantai 3
             </div>
         </div>
     </footer>
-    <!-- Akhir Footer -->
+        
 
-    <!-- Bootstrap JS -->
+
+
+     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -264,15 +234,10 @@ Lantai 3
 
     <!-- Slideshow -->
     <script>
-        $(".carousel").swipe({
-            swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
-                if (direction == 'left') $(this).carousel('next');
-                if (direction == 'right') $(this).carousel('prev');
-            },
-            allowPageScroll: "vertical"
-        });
+        $("#file").change(function(a,b,c){
+            var file = $(this)[0].files[0];
+            $("#filename").html(file.name + " size: "+file.size+" byte");
+        })
     </script>
 
-</body>
-
-</html>
+    </body>

@@ -20,6 +20,9 @@ return new class extends Migration
             $table->integer('volume');
             $table->integer('tahun');
             $table->string('bidang_industri');
+            $table->string('latar_belakang');
+            $table->string('file_pendukung'); // link download
+            $table->string('tag');
             $table->bigInteger('akademisi_id');
             $table->string('link_artikel');
             $table->timestamps();

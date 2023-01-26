@@ -13,7 +13,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- CSS custom -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 
 </head>
 
@@ -23,13 +23,13 @@
             <a class="navbar-brand" href="#">
                 <div class="row">
                     <div class="col">
-                        <img src="Assets/siskakol.png" id="logo" class="d-inline-block align-top" alt="">
+                        <img src="/Assets/siskakol.png" id="logo" class="d-inline-block align-top" alt="">
                     </div>
                     <div class="col">
                         <div class="line"></div>
                     </div>
                     <div class="col align-self-center">
-                        <img src="Assets/logo-seal (1).png" id="logo" class="d-inline-block align-top logo" alt="">
+                        <img src="/Assets/logo-seal (1).png" id="logo" class="d-inline-block align-top logo" alt="">
                     </div>
                 </div>
             </a>
@@ -41,25 +41,25 @@
                 <div class="mr-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</span></a>
+                        <a class="nav-link" href="/">Home</span></a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                           Penelitian
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="penelitian_aplikasigame.html" target="_blank">Sektor Aplikasi & Game</a>
-                            <a class="dropdown-item" href="penelitian_kriya.html" target="_blank">Sektor Kriya</a>
-                            <a class="dropdown-item" href="penelitian_fashion.html"  target="_blank">Sektor Fashion</a>
-                            <a class="dropdown-item" href="penelitian_kuliner.html" target="_blank">Sektor Kuliner</a>
-                            <a class="dropdown-item" href="penelitian_animasi.html" target="_blank">Sektor Animasi</a>
+                          <a class="dropdown-item" href="/penelitian/aplikasigame" target="_blank">Sektor Aplikasi & Game</a>
+                          <a class="dropdown-item" href="/penelitian/kriya" target="_blank">Sektor Kriya</a>
+                          <a class="dropdown-item" href="/penelitian/fashion"  target="_blank">Sektor Fashion</a>
+                          <a class="dropdown-item" href="/penelitian/kuliner" target="_blank">Sektor Kuliner</a>
+                          <a class="dropdown-item" href="/penelitian/animasi" target="_blank">Sektor Animasi</a>
                         </div>
                       </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="publikasi_form.html" target="_blank">Publikasi</a>
+                        <a class="nav-link" href="/" target="_blank">Publikasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="kolaborasi.html" target="_blank">Kolaborasi</a>
+                        <a class="nav-link" href="/kolaborasi" target="_blank">Kolaborasi</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Permasalahan</a>
@@ -71,100 +71,82 @@
         </div>
     </nav>
 
-    <!-- Informasi Utama -->
-    <div class="informasi-utama container" style="margin-top: 150px" >
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-8 ">
-                            {{ $penelitian }}
-
-                                <h4>
-                                    Pengaruh Literasi Keuangan, Pengetahuan Keuangan Dan Sikap Keuangan Terhadap Perilaku Manajemen Keuangan Pada Pelaku Usaha UMKM Fashion Di Kabupaten Malang</h4>
-                                <small>
-                                    Dipublikasi Pada -
-                                </small>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12"><hr /></div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-8">
-                                <b>Oleh</b><br />
-                                <b class="nama-profil">Kurniawan Yuniarto</b><br />
-                                <small>Perguruan Tinggi | Univertas Mataram</small>
-
-                                <!-- <table class="syarat">
-                                    <tr>
-                                        <td>
-                                            <h5>Bidang</h5>
-                                            <small>Kemandirian</small>
-                                        </td>
-                                        <td>
-                                            <h5>Syarat Kesiapan Minimum</h5>
-                                            <small>8 - Sistem Lengkap</small>
-                                        </td>
-                                        <td>
-                                            <h5>Batas Akhir Pengajuan</h5>
-                                            <small>12 Desember 2022</small>
-                                        </td>
-                                    </tr>
-                                </table> -->
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="sub-sector">
-                                    <b>Sub Sektor</b><br />
-                                    <small>Fashion</small>
+    <!-- Header -->
+    <div class="header">
+        <div id="carouselheader" class="carousel slide" data-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="carousel-bacground" src="/Assets/bacground-header-blue.png" alt="..." width="100%"
+                        height="600px">
+                    <div class="carousel-caption d-md-block">
+                        <div class="row header-item">
+                            <div class="col-lg-7 col-md-12 col-sm-12 align-self-center">
+                                <div class="text-header">
+                                    <h4>Kesempatan untuk mengembangkan usaha anda lebih unggul bersama kami</h4>
+                                    <p>Siskakol Menjadi Solusi Real Case Usaha Anda</p>
+                                    <h5>Ajukan Penelitian Anda di Periode 1 : Januari - Februari 2023</h5>
+                                    <button>Selengkapnya</button>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12">
-
-                                <h4>Latar Belakang</h4>
-                                <p>
-Pada sebuah informasi dari kementerian dalam bidang data serta biro perencanaan sebuah kementerian negara yang bergerak di bidang koperasi serta usaha mikro kecil menengah yang berada di Indonesia, usaha mikro kecil menengah sangat memberikan masukan serta kontribusi yang sangat baik bagi masyarakat dengan terciptanya investasi nasional serta pada peningkatan bruto PDB nasional, sebuah kontribusi usaha mikro kecil menengah dalam tenaga kerja. Mien & Thao (2015) “Banyak hal yang bisa menjadi sebuah masalah baru serta menjadi sebuah tantangan yang di hadapi usaha mikro kecil menengah di Indonesia, salah satunya dalam perilaku manajemen finansial pada pelaku usaha mikro kecil menengah. Perilaku manajemen keuangan dirasakan sebagai di antara konsep kunci dalam disiplin ilmu finansial”.
-                                </p>
-
-
-                                <h4>Dokumen Pendukung</h4>
-                                <a href="#" class="document">
-                                    <div>
-                                        <img src="/Assets/book.png" />
-                                    </div>
-                                </a>
+                            <div class="col-lg-5 col-md-12  col-sm-12">
+                                <img src="/Assets/Business deal-cuate.svg" alt="" class="responsive">
                             </div>
                         </div>
-
-                        <div class="row" style="margin-top:20px">
-                            <div class="col-6">
-                                <h5>Tag</h5>
-                                <div class="badge badge-secondary">UMKM</div>
-                                <div class="badge badge-secondary">Penelitian</div>
-                                <div class="badge badge-secondary">Fashion</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-bacground" src="/Assets/bacground-header-blue.png" alt="..." width="100%"
+                        height="600px">
+                    <div class="carousel-caption d-md-block">
+                        <div class="row header-item">
+                            <div class="col-lg-7 col-md-12 col-sm-12 align-self-center">
+                                <div class="text-header">
+                                    <h4>Rahasia Menjadikan Usaha Anda Lebih Unggul Kini Telah Terungkap!</h4>
+                                    <p>Raih Kesempatan Untuk Sekarang</p>
+                                    <h5>Ajukan Penelitian Anda di Periode 1 : Januari - Februari 2023</h5>
+                                    <button>Selengkapnya</button>
+                                </div>
                             </div>
-
-                            <div class="col-6">
-                                <br />
-                                <a href="#" class="btn btn-primary float-right">Download</a>
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <img src="/Assets/Novelist writing-rafiki.svg" alt="" class="responsive">
                             </div>
                         </div>
-
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-bacground" src="/Assets/bacground-header-green.png" alt="..." width="100%"
+                        height="600px">
+                    <div class="carousel-caption d-md-block">
+                        <div class="row header-item">
+                            <div class="col-lg-7 col-md-12 col-sm-12 align-self-center">
+                                <div class="text-header">
+                                    <h4>Bersama Siskakol, Wujudkan Menjadi Nyata Penelitian Anda</h4>
+                                    <p>Ajukan Penelitian Anda di Periode 1 : Januari - Februari 2023</p>
+                                    <!-- <h5>Priode pengajuan proposal: 15 Desember 2022 - 31 Januari 2023</h5> -->
+                                    <button>Selengkapnya</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <img src="/Assets/Novelist writing-rafiki.svg" alt="" class="responsive">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselheader" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselheader" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 
+    <!-- Akhir Header -->
+
+    @yield('content')
 
     <!-- Footer -->
     <footer class="footer">
@@ -246,6 +228,8 @@ Lantai 3
         </div>
     </footer>
     <!-- Akhir Footer -->
+
+   
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
