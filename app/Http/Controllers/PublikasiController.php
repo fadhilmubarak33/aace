@@ -30,9 +30,9 @@ class PublikasiController extends Controller
     {
         $request->validate(
             [
-                "judul" =>  'required',
-                "nomor" =>  'required',
-                "volume" => 'required',
+                "nama_peneliti" =>  'required',
+                "universitas" =>  'required',
+                "judul" => 'required',
                 "tahun" => 'required',
                 "link_artikel" => 'required',
                 "akademisi_id" =>  'required',
@@ -43,15 +43,15 @@ class PublikasiController extends Controller
 
         try {
             DB::table('penelitian')->insert([
-                "judul" => $request->judul,
-                "nomor" => $request->nomor,
-                "volume" => $request->volume,
+                "nama_peneliti" => $request->judul,
+                "universitas" => $request->universitas,
+                "judul"  => $request->judul,
                 "tahun" => $request->tahun,
                 "link_artikel" =>  $request->link_artikel,
                 "akademisi_id" =>  $request->akademisi_id,
 
             ]);
-            return redirect()->route('publikasi_form')->with('success','Data berhasil ditambahkan');
+            return redirect()->route('form-publikasi')->with('success','Data berhasil ditambahkan');
         } catch (\Throwable $th) {
             return redirect()->back();
         }
