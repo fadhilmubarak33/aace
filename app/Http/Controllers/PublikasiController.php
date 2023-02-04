@@ -51,7 +51,7 @@ class PublikasiController extends Controller
                 "akademisi_id" =>  $request->akademisi_id,
 
             ]);
-            return redirect()->route('form-publikasi')->with('success','Data berhasil ditambahkan');
+            return redirect()->route('form-publikasi')->with('','Data berhasil ditambahkan');
         } catch (\Throwable $th) {
             return redirect()->back();
         }
