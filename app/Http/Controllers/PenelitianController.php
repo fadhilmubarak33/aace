@@ -27,7 +27,11 @@ class PenelitianController extends Controller
                 break;
 
             case "animasi":
+<<<<<<< HEAD
                 $data["judul_jenis"] = "Animasi";                               
+=======
+                $data["judul_jenis"] = "Animasi";
+>>>>>>> ef33309 (update list)
         }
 
         $data["penelitian"] = Penelitian::where("bidang_industri", $jenis)

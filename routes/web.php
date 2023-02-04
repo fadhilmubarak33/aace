@@ -48,9 +48,18 @@ Route::get('/form-publikasi', function () {
 //     return view('penelitian_kuliner');
 // });
 
+<<<<<<< HEAD
 Route::get('/detail-penelitian', function () {
     return view('penelitian_detail');
 });
+=======
+// Route::get('/detail-penelitian', function () {
+//     return view('penelitian_detail');
+// });
+
+Route::get('/penelitian/{jenis}', [PenelitianController::class, 'index'])->name('penelitian.index');
+Route::get('/detail-penelitian/{slug}', [PenelitianController::class, 'detail'])->name('penelitian.detail');
+>>>>>>> ef33309 (update list)
 
 Route::get('/penelitian/{jenis}', [PenelitianController::class, 'index'])->name('penelitian.index');
 Route::get('/detail-penelitian/{slug}', [PenelitianController::class, 'detail'])->name('penelitian.detail');

@@ -22,9 +22,15 @@ class PenelitianSeeder extends Seeder
         DB::table("penelitian")->truncate();
 
         $akademisi = new Akademisi;
+<<<<<<< HEAD
         $akademisi->nama_peneliti = "Husnu Setiawan";
         $akademisi->universitas = "PENS";
         $akademisi->email = "husnu@gmail.com";
+=======
+        $akademisi->nama_peneliti = "Amar";
+        $akademisi->universitas = "Universitas Negeri Malang";
+        $akademisi->email = "amarphp@gmail.com";
+>>>>>>> ef33309 (update list)
         $akademisi->password = Hash::make('123456');
         $akademisi->save();
 
