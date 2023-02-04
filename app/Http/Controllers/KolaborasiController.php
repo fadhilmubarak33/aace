@@ -35,7 +35,7 @@ class KolaborasiController extends Controller
             ->take(6)
             ->get();
 
-        return view('penelitian', $data);
+        return view('kolaborasi', $data);
     }
 
     public function detail($slug){
