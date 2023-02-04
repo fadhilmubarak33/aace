@@ -43,7 +43,7 @@ class PublikasiController extends Controller
 
         try {
             DB::table('penelitian')->insert([
-                "nama_peneliti" => $request->judul,
+                "nama_peneliti" => $request->namapeneliti,
                 "universitas" => $request->universitas,
                 "judul"  => $request->judul,
                 "tahun" => $request->tahun,
