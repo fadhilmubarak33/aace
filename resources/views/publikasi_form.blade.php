@@ -57,10 +57,10 @@
                         </div>
                       </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Publikasi</a>
+                        <a class="nav-link" href="form-publikasi">Publikasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="kolaborasi.html">Kolaborasi</a>
+                        <a class="nav-link" href="kolaborasi">Kolaborasi</a>
                     </li>
                     <!--li class="nav-item active">
                         <a class="nav-link" href="#">Permasalahan</a>

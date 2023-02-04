@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <br>
-                <center><p>Belum punya akun ? <a href="register_page.html" style="color: #0000EE;">Daftar disini</a> </p></center>
+                <center><p>Belum punya akun ? <a href="register" style="color: #0000EE;">Daftar disini</a> </p></center>
 
             </div>
         </div>
