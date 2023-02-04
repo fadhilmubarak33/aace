@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('login', [LoginController::class, 'index'])->name('login');
 Route::get('/', function () {
     return view('index');
 });
@@ -25,9 +25,6 @@ Route::get('/home', function () {
 });
 Route::get('/kolaborasi', function () {
     return view('kolaborasi');
-});
-Route::get('/login', function () {
-    return view('login');
 });
 Route::get('/register', function () {
     return view('register_page');
@@ -50,11 +47,14 @@ Route::get('/penelitian-kriya', function () {
 Route::get('/penelitian-kuliner', function () {
     return view('penelitian_kuliner');
  });
-
-
-Route::get('/detail-penelitian', function () {
-    return view('penelitian_detail');
+ Route::get('/detail-kolaborasi', function () {
+    return view('kolaborasi_detail');
 });
+
+
+// Route::get('/detail-penelitian', function () {
+//     return view('penelitian_detail');
+// });
 
 
 
@@ -74,4 +74,7 @@ Route::get('/detail-penelitian/{slug}', [PenelitianController::class, 'detail'])
 // Route::get('/penelitian-kriya', [PenelitianController::class, 'index'])->name('penelitian_kriya');
 // Route::get('/penelitian-kuliner', [PenelitianController::class, 'index'])->name('penelitian_kuliner');
 // Route::get('/kolaborasi', [KolaborasiControllerler::class, 'index'])->name('kolaborasi.html');
-
+// Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
+// Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
+// Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
+// Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');

@@ -137,7 +137,7 @@
                 <div class="card">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
-                            <a href="kolaborasi_detail.html" target="_blank" class="judul"><h4>Pengembangan Media Pembelajaran Animasi Powtoon pada Mata Pelajaran Matematika di Kelas IV SD</h4></a>
+                            <a href=" detail-kolaborasi" target="_blank" class="judul"><h4>Pengembangan Media Pembelajaran Animasi Powtoon pada Mata Pelajaran Matematika di Kelas IV SD</h4></a>
                             <small>Juni 2019</small>
                         </div>
 
@@ -153,7 +153,7 @@
                 <div class="card">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
-                            <a href="kolaborasi_detail.html" target="_blank" class="judul"><h4>Pengembangan Media Pembelajaran Animasi Powtoon pada Mata Pelajaran Matematika di Kelas IV SD</h4></a>
+                            <a href=" detail-kolaborasi" target="_blank" class="judul"><h4>Pengembangan Media Pembelajaran Animasi Powtoon pada Mata Pelajaran Matematika di Kelas IV SD</h4></a>
                             <small>Juni 2019</small>
                         </div>
 
@@ -169,7 +169,7 @@
                 <div class="card">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
-                            <a href="kolaborasi_detail.html" target="_blank" class="judul"><h4>Pengembangan Media Pembelajaran Animasi Powtoon pada Mata Pelajaran Matematika di Kelas IV SD</h4></a>
+                            <a href=" detail-kolaborasi" target="_blank" class="judul"><h4>Pengembangan Media Pembelajaran Animasi Powtoon pada Mata Pelajaran Matematika di Kelas IV SD</h4></a>
                             <small>Juni 2019</small>
                         </div>
 
@@ -185,7 +185,7 @@
                 <div class="card">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div>
-                            <a href="kolaborasi_detail.html" target="_blank" class="judul"><h4>Pengembangan Media Pembelajaran Animasi Powtoon pada Mata Pelajaran Matematika di Kelas IV SD</h4></a>
+                            <a href=" detail-kolaborasi" target="_blank" class="judul"><h4>Pengembangan Media Pembelajaran Animasi Powtoon pada Mata Pelajaran Matematika di Kelas IV SD</h4></a>
                             <small>Juni 2019</small>
                         </div>
 

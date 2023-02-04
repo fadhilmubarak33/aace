@@ -80,7 +80,8 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <form>
+                        <form method="POST" action="{{ route('login') }}">
+                            @csrf
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"

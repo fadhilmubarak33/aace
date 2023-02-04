@@ -48,11 +48,11 @@
                           Penelitian
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="penelitian_aplikasigame.html" target="_blank">Sektor Aplikasi & Game</a>
-                            <a class="dropdown-item" href="penelitian_kriya.html" target="_blank">Sektor Kriya</a>
-                            <a class="dropdown-item" href="penelitian_fashion.html"  target="_blank">Sektor Fashion</a>
-                            <a class="dropdown-item" href="penelitian_kuliner.html" target="_blank">Sektor Kuliner</a>
-                            <a class="dropdown-item" href="penelitian_animasi.html" target="_blank">Sektor Animasi</a>
+                            <a class="dropdown-item" href="penelitian-aplikasigame" target="_blank">Sektor Aplikasi & Game</a>
+                            <a class="dropdown-item" href="penelitian-kriya" target="_blank">Sektor Kriya</a>
+                            <a class="dropdown-item" href="penelitian-fashion"  target="_blank">Sektor Fashion</a>
+                            <a class="dropdown-item" href="penelitian-kuliner" target="_blank">Sektor Kuliner</a>
+                            <a class="dropdown-item" href="penelitian-animasi" target="_blank">Sektor Animasi</a>
 
                         </div>
                       </li>
