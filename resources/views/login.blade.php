@@ -41,30 +41,30 @@
                 <div class="mr-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</span></a>
+                        <a class="nav-link" href="home">Home</span></a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="/penelitian.html" role="button" data-toggle="dropdown" aria-expanded="false">
                           Penelitian
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="penelitian_aplikasigame.html" target="_blank">Sektor Aplikasi & Game</a>
-                            <a class="dropdown-item" href="penelitian_kriya.html" target="_blank">Sektor Kriya</a>
-                            <a class="dropdown-item" href="penelitian_fashion.html"  target="_blank">Sektor Fashion</a>
-                            <a class="dropdown-item" href="penelitian_kuliner.html" target="_blank">Sektor Kuliner</a>
-                            <a class="dropdown-item" href="penelitian_animasi.html" target="_blank">Sektor Animasi</a>
-                         
+                            <a class="dropdown-item" href="penelitian-aplikasigame" target="_blank">Sektor Aplikasi & Game</a>
+                            <a class="dropdown-item" href="penelitian-kriya" target="_blank">Sektor Kriya</a>
+                            <a class="dropdown-item" href="penelitian-fashion"  target="_blank">Sektor Fashion</a>
+                            <a class="dropdown-item" href="penelitian-kuliner" target="_blank">Sektor Kuliner</a>
+                            <a class="dropdown-item" href="penelitian-animasi" target="_blank">Sektor Animasi</a>
+
                         </div>
                       </li>
                       <li class="nav-item active">
-                        <a class="nav-link" href="publikasi_form.html" target="_blank">Publikasi</a>
+                        <a class="nav-link" href="form-publikasi" target="_blank">Publikasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="kolaborasi.html" target="_blank">Kolaborasi</a>
+                        <a class="nav-link" href="kolaborasi" target="_blank">Kolaborasi</a>
                     </li>
-                    <li class="nav-item active">
+                    <!--li class="nav-item active">
                         <a class="nav-link" href="#">Permasalahan</a>
-                    </li>
+                    </!--li-->
                 </ul>
 
                 <a class="login" href="" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a>
@@ -92,17 +92,17 @@
                                     placeholder="Password">
                             </div>
                             <center><p>Lupa kata sandi ? <a href="" style="color: #0000EE;">Atur ulang</a></p></center>
-                            <center><p>Dengan mengklik tombol “Masuk” anda setuju dengan 
+                            <center><p>Dengan mengklik tombol “Masuk” anda setuju dengan
                                <span style="color: #0000EE;"> Syarat & Ketentuan Kebijakan Privasi</span></p></center>
 
                               <center> <button class="btn btn-primary">Masuk</button></center>
                         </form>
-                        
+
                     </div>
                 </div>
                 <br>
                 <center><p>Belum punya akun ? <a href="register_page.html" style="color: #0000EE;">Daftar disini</a> </p></center>
-               
+
             </div>
         </div>
     </div>
@@ -186,7 +186,7 @@ Lantai 3
             </div>
         </div>
     </footer>
-        
+
 
 
 

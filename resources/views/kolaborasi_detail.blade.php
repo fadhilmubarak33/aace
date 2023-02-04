@@ -41,33 +41,33 @@
                 <div class="mr-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</span></a>
+                        <a class="nav-link" href="home">Home</span></a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                           Penelitian
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="penelitian_aplikasigame.html" target="_blank">Sektor Aplikasi & Game</a>
-                            <a class="dropdown-item" href="penelitian_kriya.html" target="_blank">Sektor Kriya</a>
-                            <a class="dropdown-item" href="penelitian_fashion.html"  target="_blank">Sektor Fashion</a>
-                            <a class="dropdown-item" href="penelitian_kuliner.html" target="_blank">Sektor Kuliner</a>
-                            <a class="dropdown-item" href="penelitian_animasi.html" target="_blank">Sektor Animasi</a>
-                         
+                            <a class="dropdown-item" href="penelitian-aplikasigame" target="_blank">Sektor Aplikasi & Game</a>
+                            <a class="dropdown-item" href="penelitian-kriya" target="_blank">Sektor Kriya</a>
+                            <a class="dropdown-item" href="penelitian-fashion"  target="_blank">Sektor Fashion</a>
+                            <a class="dropdown-item" href="penelitian-kuliner" target="_blank">Sektor Kuliner</a>
+                            <a class="dropdown-item" href="penelitian-animasi" target="_blank">Sektor Animasi</a>
+
                         </div>
                       </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="publikasi_form.html" target="_blank">Publikasi</a>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="form-publikasi" target="_blank">Publikasi</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="kolaborasi.html" target="_blank">Kolaborasi</a>
+                        <a class="nav-link" href="kolaborasi" target="_blank">Kolaborasi</a>
                     </li>
-                    <li class="nav-item active">
+                    <!--li class="nav-item active">
                         <a class="nav-link" href="#">Permasalahan</a>
-                    </li>
+                    </!--li-->
                 </ul>
 
-                <a class="login" href="login.html" target="_blank">Masuk</a>
+                <a class="login" href="login" target="_blank">Masuk</a>
             </div>
         </div>
     </nav>
@@ -97,7 +97,7 @@
                                 <b>Oleh</b><br />
                                 <b class="nama-profil">Fanisa Kris Dayanti, Jeni Susyanti, M. Khoirul Anwarodin Broto S</b><br />
                                 <small>UPN Veteran Jawa Timur</small>
-                
+
                                 <!-- <table class="syarat">
                                     <tr>
                                         <td>
@@ -134,7 +134,7 @@
 
                         <div class="row">
                             <div class="col-12">
-                
+
                                 <h4>Latar Belakang</h4>
                                 <p>
 Pada sebuah informasi dari kementerian dalam bidang data serta biro perencanaan sebuah kementerian negara yang bergerak di bidang koperasi serta usaha mikro kecil menengah yang berada di Indonesia, usaha mikro kecil menengah sangat memberikan masukan serta kontribusi yang sangat baik bagi masyarakat dengan terciptanya investasi nasional serta pada peningkatan bruto PDB nasional, sebuah kontribusi usaha mikro kecil menengah dalam tenaga kerja. Mien & Thao (2015) “Banyak hal yang bisa menjadi sebuah masalah baru serta menjadi sebuah tantangan yang di hadapi usaha mikro kecil menengah di Indonesia, salah satunya dalam perilaku manajemen finansial pada pelaku usaha mikro kecil menengah. Perilaku manajemen keuangan dirasakan sebagai di antara konsep kunci dalam disiplin ilmu finansial”.
@@ -170,7 +170,7 @@ Pada sebuah informasi dari kementerian dalam bidang data serta biro perencanaan 
                         </div>
 
                     </div>
-                </div>                  
+                </div>
             </div>
         </div>
     </div>

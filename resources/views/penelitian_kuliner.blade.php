@@ -17,7 +17,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600;700&display=swap" rel="stylesheet">
-    
+
 </head>
 
 <body>
@@ -44,7 +44,7 @@
                 <div class="mr-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</span></a>
+                        <a class="nav-link" href="home">Home</span></a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -56,7 +56,7 @@
                           <a class="dropdown-item" href="penelitian_fashion.html" target="_blank">Sektor Fashion</a>
                           <a class="dropdown-item" href="#">Sektor Kuliner</a>
                           <a class="dropdown-item" href="penelitian_animasi.html" target="_blank">Sektor Animasi</a>
-                         
+
                         </div>
                       </li>
                     <li class="nav-item active">
@@ -65,12 +65,12 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="kolaborasi.html" target="_blank">Kolaborasi</a>
                     </li>
-                    <li class="nav-item active">
+                    <!--li class="nav-item active">
                         <a class="nav-link" href="#">Permasalahan</a>
-                    </li>
+                    </!--li-->
                 </ul>
 
-                <a class="login" href="login.html" target="_blank">Masuk</a>
+                <a class="login" href="login" target="_blank">Masuk</a>
             </div>
         </div>
     </nav>

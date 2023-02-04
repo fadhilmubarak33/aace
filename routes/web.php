@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('index');
 });
 Route::get('/kolaborasi', function () {
@@ -32,34 +32,28 @@ Route::get('/register', function () {
 Route::get('/form-publikasi', function () {
     return view('publikasi_form');
 });
-// Route::get('/penelitian-animasi', function () {
-//     return view('penelitian_animasi');
-// });
-// Route::get('/penelitian-aplikasigame', function () {
-//     return view('penelitian_aplikasigame');
-// });
-// Route::get('/penelitian-fashion', function () {
-//     return view('penelitian_fashion');
-// });
-// Route::get('/penelitian-kriya', function () {
-//     return view('penelitian_kriya');
-// });
-// Route::get('/penelitian-kuliner', function () {
-//     return view('penelitian_kuliner');
-// });
+Route::get('/penelitian-animasi', function () {
+    return view('penelitian_animasi');
+});
+Route::get('/penelitian-aplikasigame', function () {
+    return view('penelitian_aplikasigame');
+});
+Route::get('/penelitian-fashion', function () {
+    return view('penelitian_fashion');
+});
+Route::get('/penelitian-kriya', function () {
+    return view('penelitian_kriya');
+});
+Route::get('/penelitian-kuliner', function () {
+    return view('penelitian_kuliner');
+ });
 
-<<<<<<< HEAD
+
 Route::get('/detail-penelitian', function () {
     return view('penelitian_detail');
 });
-=======
-// Route::get('/detail-penelitian', function () {
-//     return view('penelitian_detail');
-// });
 
-Route::get('/penelitian/{jenis}', [PenelitianController::class, 'index'])->name('penelitian.index');
-Route::get('/detail-penelitian/{slug}', [PenelitianController::class, 'detail'])->name('penelitian.detail');
->>>>>>> ef33309 (update list)
+
 
 Route::get('/penelitian/{jenis}', [PenelitianController::class, 'index'])->name('penelitian.index');
 Route::get('/detail-penelitian/{slug}', [PenelitianController::class, 'detail'])->name('penelitian.detail');
@@ -77,5 +71,4 @@ Route::get('/detail-penelitian/{slug}', [PenelitianController::class, 'detail'])
 // Route::get('/penelitian-kriya', [PenelitianController::class, 'index'])->name('penelitian_kriya');
 // Route::get('/penelitian-kuliner', [PenelitianController::class, 'index'])->name('penelitian_kuliner');
 // Route::get('/kolaborasi', [KolaborasiControllerler::class, 'index'])->name('kolaborasi.html');
-
 

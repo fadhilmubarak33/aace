@@ -41,7 +41,7 @@
                 <div class="mr-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</span></a>
+                        <a class="nav-link" href="home">Home</span></a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="/penelitian.html" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -53,7 +53,7 @@
                             <a class="dropdown-item" href="penelitian_fashion.html"  target="_blank">Sektor Fashion</a>
                             <a class="dropdown-item" href="penelitian_kuliner.html" target="_blank">Sektor Kuliner</a>
                             <a class="dropdown-item" href="penelitian_animasi.html" target="_blank">Sektor Animasi</a>
-                         
+
                         </div>
                       </li>
                     <li class="nav-item active">
@@ -62,12 +62,12 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="kolaborasi.html">Kolaborasi</a>
                     </li>
-                    <li class="nav-item active">
+                    <!--li class="nav-item active">
                         <a class="nav-link" href="#">Permasalahan</a>
-                    </li>
+                    </!--li-->
                 </ul>
 
-                <a class="login" href="login.html" target="_blank">Masuk</a>
+                <a class="login" href="login" target="_blank">Masuk</a>
             </div>
         </div>
     </nav>
@@ -125,10 +125,10 @@
                                 <input type="submit" class="btn btn-primary" value="Kirim">
                             </center>
                         </form>
-                        
+
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </div>

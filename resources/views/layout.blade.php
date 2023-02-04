@@ -61,12 +61,12 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="/kolaborasi" target="_blank">Kolaborasi</a>
                     </li>
-                    <li class="nav-item active">
+                    <!--li class="nav-item active">
                         <a class="nav-link" href="#">Permasalahan</a>
-                    </li>
+                    </!--li-->
                 </ul>
 
-                <a class="login" href="login.html" target="_blank">Masuk</a>
+                <a class="login" href="login" target="_blank">Masuk</a>
             </div>
         </div>
     </nav>
@@ -229,7 +229,7 @@ Lantai 3
     </footer>
     <!-- Akhir Footer -->
 
-   
+
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
