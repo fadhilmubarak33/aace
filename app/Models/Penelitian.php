@@ -17,6 +17,9 @@ class Penelitian extends Model
         'volume',
         'tahun',
         'bidang_industri',
+        'latar_belakang',
+        'tag',
+        'file_pendukung', // link download
         'akademisi_id',
         'link_artikel'
         ] ;

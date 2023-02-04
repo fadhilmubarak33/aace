@@ -34,7 +34,8 @@ class PublikasiController extends Controller
                 "universitas" =>  'required',
                 "judul" => 'required',
                 "tahun" => 'required',
-                "link_artikel" => 'required',
+                "bidang_industri" => 'required',
+                "file_pendukung" =>  'required',
                 "akademisi_id" =>  'required',
             ],
 
@@ -47,7 +48,8 @@ class PublikasiController extends Controller
                 "universitas" => $request->universitas,
                 "judul"  => $request->judul,
                 "tahun" => $request->tahun,
-                "link_artikel" =>  $request->link_artikel,
+                "bidang_industri" =>  $request->bidang_industri,
+                "file_pendukung" =>  $request->file_pendukung,
                 "akademisi_id" =>  $request->akademisi_id,
 
             ]);
