@@ -19,7 +19,7 @@ class KolaborasiSeeder extends Seeder
 
         $pelakuindustri = new PelakuIndustri;
         $pelakuindustri->nama = "Amar";
-        $pelakuindustri->email = "mcc@gmail.com";
+        $pelakuindustri->email = "amar@gmail.com";
         $pelakuindustri->telepon = "087654321";
         $pelakuindustri->password = Hash::make('123456');
         $pelakuindustri->bidang_industri = "aplikasi&game";
