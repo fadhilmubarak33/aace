@@ -51,12 +51,23 @@
                           Penelitian
                         </a>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="penelitian-aplikasigame" target="_blank">Sektor Aplikasi & Game</a>
-                          <a class="dropdown-item" href="penelitian-kriya" target="_blank">Sektor Kriya</a>
-                          <a class="dropdown-item" href="penelitian-fashion" target="_blank">Sektor Fashion</a>
-                          <a class="dropdown-item" href="penelitian-kuliner">Sektor Kuliner</a>
-                          <a class="dropdown-item" href="penelitian-animasi" target="_blank">Sektor Animasi</a>
-
+                            <a class="dropdown-item" href="penelitian-aplikasigame" target="_blank">Sektor Aplikasi & Game</a>
+                            <a class="dropdown-item" href="penelitian-kriya" target="_blank">Sektor Kriya</a>
+                            <a class="dropdown-item" href="penelitian-fashion"  target="_blank">Sektor Fashion</a>
+                            <a class="dropdown-item" href="penelitian-kuliner" target="_blank">Sektor Kuliner</a>
+                            <a class="dropdown-item" href="penelitian-animasi" target="_blank">Sektor Animasi</a>
+                            <a class="dropdown-item" href="penelitian-arsitektur" target="_blank">Sektor Arsitektur</a>
+                            <a class="dropdown-item" href="penelitian-desaininterior" target="_blank">Sektor Desain Interior</a>
+                            <a class="dropdown-item" href="penelitian-musik" target="_blank">Sektor Musik</a>
+                            <a class="dropdown-item" href="penelitian-senirupa" target="_blank">Sektor Seni Rupa</a>
+                            <a class="dropdown-item" href="penelitian-desainproduk" target="_blank">Sektor Desain Produk</a>
+                            <a class="dropdown-item" href="penelitian-film" target="_blank">Sektor Film</a>
+                            <a class="dropdown-item" href="penelitian-fotografi" target="_blank">Sektor Fotografi</a>
+                            <a class="dropdown-item" href="penelitian-desainkomunikasivisual" target="_blank">Sektor Desain Komunikasi Visual</a>
+                            <a class="dropdown-item" href="penelitian-televisiradio" target="_blank">Sektor Televisi dan Radio</a>
+                            <a class="dropdown-item" href="penelitian-periklanan" target="_blank">Sektor Periklanan</a>
+                            <a class="dropdown-item" href="penelitian-senipertunjukan" target="_blank">Sektor Seni Pertunjukan</a>
+                            <a class="dropdown-item" href="penelitian-penerbitan" target="_blank">Sektor Penerbitan</a>
                         </div>
                       </li>
                     <li class="nav-item active">

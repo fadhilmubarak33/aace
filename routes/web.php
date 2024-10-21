@@ -47,6 +47,45 @@ Route::get('/penelitian-kriya', function () {
 Route::get('/penelitian-kuliner', function () {
     return view('penelitian_kuliner');
  });
+
+ Route::get('/penelitian-arsitektur', function () {
+    return view('penelitian_arsitektur');
+ });
+Route::get('/penelitian-desaininterior', function () {
+    return view('penelitian_desaininterior');
+ });
+ Route::get('/penelitian-musik', function () {
+    return view('penelitian_musik');
+ });
+ Route::get('/penelitian-senirupa', function () {
+    return view('penelitian_senirupa');
+ });
+ Route::get('/penelitian-desainproduk', function () {
+    return view('penelitian_desainproduk');
+ });
+ Route::get('/penelitian-film', function () {
+    return view('penelitian_film');
+ });
+ Route::get('/penelitian-fotografi', function () {
+    return view('penelitian_fotografi');
+ });
+ Route::get('/penelitian-desainkomunikasivisual', function () {
+    return view('penelitian_desainkomunikasivisual');
+ });
+ Route::get('/penelitian-televisiradio', function () {
+    return view('penelitian_televisiradio');
+ });
+ Route::get('/penelitian-periklanan', function () {
+    return view('penelitian_periklanan');
+ });
+ Route::get('/penelitian-senipertunjukan', function () {
+    return view('penelitian_senipertunjukan');
+ });
+ Route::get('/penelitian-penerbitan', function () {
+    return view('penelitian_penerbitan');
+ });
+
+
  Route::get('/detail-kolaborasi', function () {
     return view('kolaborasi_detail');
 });
@@ -74,7 +113,7 @@ Route::get('/detail-penelitian/{slug}', [PenelitianController::class, 'detail'])
 // Route::get('/penelitian-kriya', [PenelitianController::class, 'index'])->name('penelitian_kriya');
 // Route::get('/penelitian-kuliner', [PenelitianController::class, 'index'])->name('penelitian_kuliner');
 // Route::get('/kolaborasi', [KolaborasiControllerler::class, 'index'])->name('kolaborasi.html');
-// Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom'); 
+// Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
 // Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
-// Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
+// Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
 // Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');

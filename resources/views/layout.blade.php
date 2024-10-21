@@ -48,11 +48,25 @@
                           Penelitian
                         </a>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="/penelitian/aplikasigame" target="_blank">Sektor Aplikasi & Game</a>
-                          <a class="dropdown-item" href="/penelitian/kriya" target="_blank">Sektor Kriya</a>
-                          <a class="dropdown-item" href="/penelitian/fashion"  target="_blank">Sektor Fashion</a>
-                          <a class="dropdown-item" href="/penelitian/kuliner" target="_blank">Sektor Kuliner</a>
-                          <a class="dropdown-item" href="/penelitian/animasi" target="_blank">Sektor Animasi</a>
+                            <a class="dropdown-item" href="penelitian-aplikasigame" target="_blank">Sektor Aplikasi & Game</a>
+                            <a class="dropdown-item" href="penelitian-kriya" target="_blank">Sektor Kriya</a>
+                            <a class="dropdown-item" href="penelitian-fashion"  target="_blank">Sektor Fashion</a>
+                            <a class="dropdown-item" href="penelitian-kuliner" target="_blank">Sektor Kuliner</a>
+                            <a class="dropdown-item" href="penelitian-animasi" target="_blank">Sektor Animasi</a>
+                            <a class="dropdown-item" href="penelitian-arsitektur" target="_blank">Sektor Arsitektur</a>
+                            <a class="dropdown-item" href="penelitian-desaininterior" target="_blank">Sektor Desain Interior</a>
+                            <a class="dropdown-item" href="penelitian-musik" target="_blank">Sektor Musik</a>
+                            <a class="dropdown-item" href="penelitian-senirupa" target="_blank">Sektor Seni Rupa</a>
+                            <a class="dropdown-item" href="penelitian-desainproduk" target="_blank">Sektor Desain Produk</a>
+                            <a class="dropdown-item" href="penelitian-film" target="_blank">Sektor Film</a>
+                            <a class="dropdown-item" href="penelitian-fotografi" target="_blank">Sektor Fotografi</a>
+                            <a class="dropdown-item" href="penelitian-desainkomunikasivisual" target="_blank">Sektor Desain Komunikasi Visual</a>
+                            <a class="dropdown-item" href="penelitian-televisiradio" target="_blank">Sektor Televisi dan Radio</a>
+                            <a class="dropdown-item" href="penelitian-periklanan" target="_blank">Sektor Periklanan</a>
+                            <a class="dropdown-item" href="penelitian-senipertunjukan" target="_blank">Sektor Seni Pertunjukan</a>
+                            <a class="dropdown-item" href="penelitian-penerbitan" target="_blank">Sektor Penerbitan</a>
+
+
                         </div>
                       </li>
                     <li class="nav-item active">
@@ -113,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <img class="carousel-bacground" src="/Assets/bacground-header-green.png" alt="..." width="100%"
                         height="600px">
                     <div class="carousel-caption d-md-block">
@@ -122,7 +136,7 @@
                                 <div class="text-header">
                                     <h4>Bersama Siskakol, Wujudkan Menjadi Nyata Penelitian Anda</h4>
                                     <p>Ajukan Penelitian Anda di Periode 1 : Januari - Februari 2023</p>
-                                    <!-- <h5>Priode pengajuan proposal: 15 Desember 2022 - 31 Januari 2023</h5> -->
+                                    <h5>Priode pengajuan proposal: 15 Desember 2022 - 31 Januari 2023</h5>
                                     <button>Selengkapnya</button>
                                 </div>
                             </div>
@@ -132,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <a class="carousel-control-prev" href="#carouselheader" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>

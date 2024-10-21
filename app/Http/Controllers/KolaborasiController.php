@@ -14,7 +14,6 @@ class KolaborasiController extends Controller
             case "kriya":
                 $data["judul_jenis"] = "Kriya";
                 break;
-
             case "fashion":
                 $data["judul_jenis"] = "Fashion";
                 break;
@@ -40,7 +39,7 @@ class KolaborasiController extends Controller
 
     public function detail($slug){
 
-        $data['pelakuindustri'] = Penelitian::where("link_artikel", $slug)->firstOrFail();
+        $data['penelitian'] = Penelitian::where("link_artikel", $slug)->firstOrFail();
         return view('kolaborasi_detail', $data);
     }
 }

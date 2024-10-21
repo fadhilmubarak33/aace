@@ -82,7 +82,6 @@
                 </ul>
 
                 <a class="login" href="login" target="_blank">Masuk</a>
-            </div>
         </div>
     </nav>
 
@@ -108,7 +107,7 @@
         <div class="row">
             <div class="col-12">
                 <hr />
-                <h3 style="padding:10px">Daftar Penelitian - <span style="color: coral;">Sektor Fashion</span> </h3>
+                <h3 style="padding:10px">Daftar Penelitian - <span style="color: coral;">Sektor Arsitektur</span> </h3>
             </div>
         </div>
         <div class="row">

@@ -94,9 +94,9 @@
                             </div>
                             <center><p>Lupa kata sandi ? <a href="" style="color: #0000EE;">Atur ulang</a></p></center>
                             <center><p>Dengan mengklik tombol “Masuk” anda setuju dengan
-                               <span style="color: #0000EE;"> Syarat & Ketentuan Kebijakan Privasi</span></p></center>
+                               <span style="color: #151516;"> Syarat & Ketentuan Kebijakan Privasi</span></p></center>
 
-                              <center> <button class="btn btn-primary">Masuk</button></center>
+                              <center> <button class="btn btn-primary" >Masuk</button></center>
                         </form>
 
                     </div>
